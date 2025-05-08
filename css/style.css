@@ -52,6 +52,7 @@ a {
   color: black;
   text-decoration: none;
 }
+
 /*MAIN*/
 main {
   margin-top: 80px;
@@ -67,6 +68,7 @@ main {
   gap: 20px;
   justify-content: space-between;
 }
+
 /* PRODUCT CARD */
 .product-card {
   flex-basis: calc(33.33% - 20px);
@@ -84,6 +86,7 @@ main {
   display: block;
   width: 100%;
 }
+
 /* Immagine secondaria visibile solo in hover */
 .secondary-img {
   position: absolute;
@@ -99,33 +102,31 @@ main {
   opacity: 1;
 }
 
-/* Tag sconto */
-.discount-tag {
+/* Contenitore dei tag */
+.product-tags {
   position: absolute;
   bottom: 20px;
   left: 0;
-  background-color: red;
-  color: white;
+  display: flex;
+  gap: 5px;
+}
+
+/* Stile comune per i tag */
+.tag {
   padding: 5px 10px;
   font-size: 12px;
   font-weight: bold;
+  color: white;
+}
+
+/* Tag sconto */
+.discount-tag {
+  background-color: red;
 }
 
 /* Tag sostenibilità */
 .sustainability-tag {
-  position: absolute;
-  bottom: 20px;
-  left: 50px;
   background-color: green;
-  color: white;
-  padding: 5px 10px;
-  font-size: 12px;
-  font-weight: bold;
-}
-
-.last {
-  left: 0px;
-  bottom: 20px;
 }
 
 /* Icona preferiti (cuore) */
@@ -174,6 +175,7 @@ main {
   font-size: 14px;
   margin-left: 5px;
 }
+
 /* FOOTER */
 footer {
   background-color: #1a1a1a;

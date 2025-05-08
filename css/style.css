@@ -174,3 +174,63 @@ main {
   font-size: 14px;
   margin-left: 5px;
 }
+/* FOOTER */
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 0;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.company-info p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.legal-links {
+  display: flex;
+}
+
+.legal-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.social p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 10px;
+  font-size: 20px;
+}
